@@ -95,7 +95,7 @@ li{
     padding-bottom: 3em;
 }
 
-main{
+.container{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -105,7 +105,7 @@ main{
 
 }
 
-main img{
+.container img{
     width: 60%;
 }
 
@@ -147,29 +147,29 @@ main img{
     padding-bottom: 1em;
 }
 
-aside {
+.infor {
     padding-bottom: 5em;
 }
 
 
-aside li{
+.infor li{
     width: 25%;
     display: inline-block;
     list-style-type: none;
 
 }
 
-aside img{
+.infor img{
     padding-bottom: 1em;
     width: 1.7em;
 }
 
-aside h1{
+.infor h1{
     padding-bottom: 0.7em;
     color: hsl(210, 10%, 33%);
 }
 
-aside p{
+.infor p{
     line-height: 1.5em;
     font-size: 0.7em;
     color: hsl(210, 10%, 33%);
@@ -212,7 +212,7 @@ aside p{
     padding: 5em;
 }
 
-.contact{
+.contact, .faq{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -270,7 +270,7 @@ aside p{
             padding-top: 4em;
         }
     
-    main{
+    .container{
         flex-direction: column;
         gap: 40px;
     }
@@ -288,7 +288,7 @@ aside p{
         font-size: 1em;
     }
 
-    aside ul{
+    .infor ul{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -305,7 +305,7 @@ aside p{
     }
 
 
-    aside li{
+    .infor li{
         width: 70%;
     }
 
