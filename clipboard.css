@@ -127,7 +127,7 @@ li{
     color: hsl(210, 10%, 33%);
 }
 
-.access h1{
+.access h2{
     color: hsl(210, 10%, 33%);
     font-weight: 600;
     font-size: 1.2em;
@@ -164,7 +164,7 @@ li{
     width: 1.7em;
 }
 
-.infor h1{
+.infor h2{
     padding-bottom: 0.7em;
     color: hsl(210, 10%, 33%);
 }
@@ -193,7 +193,7 @@ li{
     width: 5em;
 }
 
-.store h1{
+.store h2{
     color: hsl(210, 10%, 33%);
     font-weight: 600;
     font-size: 1.2em;
@@ -244,6 +244,7 @@ li{
 
 /* social media style*/
 
+
 .social{
     display: flex;
     flex-direction: row; 
@@ -253,6 +254,8 @@ li{
 .social img{
     width: 80%;
 }
+
+
 
 
 @media screen and (max-width:800px) {
@@ -280,7 +283,7 @@ li{
         width: 60%;
     }
 
-    .storage h2, .access h1, .device h1{
+    .storage h2, .access h2, .device h2{
         font-size: 1.5em;
     }
 
@@ -296,7 +299,7 @@ li{
         gap: 20px;
     }
 
-    li h1{
+    li h2{
         font-size: 1.5em;
     }
 
