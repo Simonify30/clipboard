@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    /* width: 960px; */
+    
+}
+
+.background_img{
+    width: 100%;
+}
+
+.head{
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    
+}
+
+.logo img{
+    width: 90px;
+}
+
+.history h1{
+    font-size: 2em;
+    font-weight: 700;
+    color: hsl(210, 10%, 33%);
+    padding-bottom: 15px;
+}
+
+.history p{
+    color: hsl(210, 10%, 33%);
+    font-size: 0.9em;
+    opacity: 70%;
+    line-height: 1.5em;
+    padding-bottom: 2em;
+}
+
+.download{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 6em;
+}
+
+li{
+    list-style-type: none;
+}
+
+.ios{
+    color: #fff;
+    padding: 10px 20px;
+    background-color: hsl(171, 66%, 44%);
+    border: 0;
+    border-radius: 1.5em;
+    font-size: 0.8em;
+}
+
+.mac{
+    color: #fff;
+    background-color: hsl(233, 100%, 69%);
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 1.5em;
+    font-size: 0.8em;
+}
+
+.snippets h2{
+    color: hsl(210, 10%, 33%);
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+
+.snippets p{
+    color: hsl(210, 10%, 33%);
+    opacity: 70%;
+    line-height: 1.5em;
+    font-size: 0.9em;
+    padding-bottom: 3em;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%px;
+    padding-bottom: 4em;
+
+}
+
+main img{
+    width: 60%;
+}
+
+.storage{
+    text-align: left;
+    width: 20%;
+}
+
+.storage h2{
+    font-size: 0.8em;
+    color: hsl(210, 10%, 33%);
+    padding-bottom: 0.3em;
+}
+
+.storage p {
+    font-size: 0.6em;
+    line-height: 1.5em;
+    padding-bottom: 1.5em;
+    color: hsl(210, 10%, 33%);
+}
+
+.access h1{
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-bottom: 0.4em;
+    
+}
+
+.access p{
+    font-size: 0.7em;
+    color: hsl(210, 10%, 33%);
+    opacity: 70%;
+    padding-bottom: 5em;
+}
+
+.device img{
+    width: 60%;
+    padding-bottom: 1em;
+}
+
+aside {
+    padding-bottom: 5em;
+}
+
+
+aside li{
+    width: 25%;
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+aside img{
+    padding-bottom: 1em;
+    width: 1.7em;
+}
+
+aside h1{
+    padding-bottom: 0.7em;
+    color: hsl(210, 10%, 33%);
+}
+
+aside p{
+    line-height: 1.5em;
+    font-size: 0.7em;
+    color: hsl(210, 10%, 33%);
+    opacity: 70%;
+}
+
+.support li{
+    display: inline-block;
+    width: 25%;
+    list-style-type: none;
+}
+
+.support{
+    white-space: nowrap;
+    padding-bottom: 4em;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.support img{
+    width: 5em;
+}
+
+.store h1{
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-bottom: 0.4em;
+}
+
+.store p{
+    color: hsl(210, 10%, 33%);
+    opacity: 70%;
+    line-height: 1.5em;
+    font-size: 0.9em;
+    padding-bottom: 3em;
+}
+
+.store{
+    padding: 5em;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    gap: 100px;
+    text-align: start;
+    padding: 20px;
+    
+}
+
+.contact a{
+    color: hsl(210, 10%, 33%);
+}
+
+.contact img{
+    width: 70px;
+}
+.faq{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.coder{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+/* social media style*/
+
+.social{
+    display: flex;
+    flex-direction: row; 
+    gap: 10px; 
+}
+
+.social img{
+    width: 80%;
+}
+
+
+@media screen and (max-width:800px) {
+    
+
+    .history h1 {
+        padding-top: 2em;
+    }
+}
+
+@media screen  and (max-width:650px) {
+
+
+    .history h1 {
+            padding-top: 4em;
+        }
+    
+    main{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .storage{
+        text-align: center;
+        width: 60%;
+    }
+
+    .storage h2, .access h1, .device h1{
+        font-size: 1.5em;
+    }
+
+    .storage p, .access p, .device p{
+        font-size: 1em;
+    }
+
+    aside ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    li h1{
+        font-size: 1.5em;
+    }
+
+    li p{
+        font-size: 1em;
+    }
+
+
+    aside li{
+        width: 70%;
+    }
+
+    .support{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+        width: 30%;
+    }
+
+    .button, .download{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ios, .mac{
+        font-size: 0.7em;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: nowrap;
+        gap: 2em;
+
+    }
+
+    .social{
+        margin: 0 auto;
+        gap: 3em;
+    }
+
+    .social img{
+        width: 100%;
+    }
+
+
+    
+
+}   
